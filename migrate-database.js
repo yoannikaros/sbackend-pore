@@ -6,9 +6,9 @@ require('dotenv').config();
 // Database Configuration
 const dbConfig = {
   host: process.env.DB_HOST || 'localhost',
-  user: process.env.DB_USER || 'root',
-  password: process.env.DB_PASSWORD || '',
-  database: process.env.DB_NAME || 'seangkatan_db',
+  user: process.env.DB_USER || 'intt3564_yoannikaros',
+  password: process.env.DB_PASSWORD || 'jawabarat123',
+  database: process.env.DB_NAME || 'intt3564_seangkatan',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
